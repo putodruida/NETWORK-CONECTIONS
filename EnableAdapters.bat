@@ -37,14 +37,12 @@ CD /D "%~dp0"
 
 Echo [ESP]
 echo .
-echo IMPORTANT: Antes de continuar, renombra los adaptadores como en la imagen.
+echo IMPORTANT: Antes de continuar, renombra los adaptadores como en la imagen "Rename Addapters".
 echo .
 echo .
 Echo [ENG]
 echo .
-echo IMPORTANT: Before continuing, rename the adapters as in the image.
-echo .
-%~dp0\Rename Addapters.PNG
+echo IMPORTANT: Before continuing, rename the adapters as in the image "Rename Addapters".
 PAUSE
 netsh interface set interface "Wi-Fi" enabled
 cls
